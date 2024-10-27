@@ -1,0 +1,63 @@
+:root {
+	--light-background-color-theme: aliceblue;
+	--light-text-color-theme: var(--header-btn-bg-color);
+
+	--dark-background-color-theme: var(--background-color);
+	--dark-text-color-theme: var(--text-color);
+
+	--calc-window-bg-color-theme: rgb(225, 227, 228);
+	--calc-window-text-color-theme: #000;
+
+	--calc-operator-bg-color-theme: rgb(225, 227, 228);
+	--calc-operator-hover-bg-color-theme: rgb(201, 201, 201);
+
+	--calc-top-symbol-bg-color-theme: #bbb9b9;
+	--calc-top-symbol-hover-bg-color-theme: #c7c6c6;
+
+	--calc-symbol-bg-color-theme: #cfcfcf;
+	--calc-symbol-hover-bg-color-theme: #bab9b9;
+}
+
+.light__theme {
+	background-color: var(--light-background-color-theme);
+	color: var(--light-text-color-theme);
+}
+
+.dark__theme {
+	background-color: var(--dark-background-color-theme);
+	color: var(--dark-text-color-theme);
+}
+
+.calc__window-theme {
+	background-color: var(--calc-window-bg-color-theme);
+	color: var(--calc-window-text-color-theme);
+}
+
+.calc__window-input-theme {
+	color: var(--calc-window-text-color-theme);
+}
+
+.calc__operator-theme {
+	color: var(--calc-window-text-color-theme);
+	background-color: var(--calc-operator-bg-color-theme);
+}
+
+.calc__operator-theme:hover {
+	background-color: var(--calc-operator-hover-bg-color-theme);
+}
+
+.calc__top-symbol-theme {
+	background-color: var(--calc-top-symbol-bg-color-theme);
+}
+
+.calc__top-symbol-theme:hover {
+	background-color: var(--calc-top-symbol-hover-bg-color-theme);
+}
+
+.calc__symbol-theme {
+	background-color: var(--calc-symbol-bg-color-theme);
+}
+
+.calc__symbol-theme:hover {
+	background-color: var(--calc-symbol-hover-bg-color-theme);
+}
