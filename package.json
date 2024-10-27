@@ -1,4 +1,8 @@
 {
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "prepare": "husky install",
     "build": "webpack"
@@ -15,11 +19,17 @@
     "@babel/core": "^7.26.0",
     "@babel/preset-env": "^7.26.0",
     "@eslint/js": "^9.13.0",
+    "autoprefixer": "^10.4.20",
     "babel-loader": "^9.2.1",
     "core-js": "^3.38.1",
+    "css-loader": "^7.1.2",
+    "cssnano": "^7.0.6",
     "eslint": "^9.13.0",
     "globals": "^15.11.0",
     "husky": "^8.0.0",
+    "mini-css-extract-plugin": "^2.9.1",
+    "postcss-loader": "^8.1.1",
+    "postcss-pxtorem": "^6.1.0",
     "webpack": "^5.95.0",
     "webpack-cli": "^5.1.4"
   },
