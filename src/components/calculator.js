@@ -7,7 +7,7 @@ calculator.addEventListener('click', (e) => {
     const buttonVal = e.target.textContent;
 
     if (buttonVal === 'AC') {
-      display.value = '';
+      display.value = '0';
     } else if (buttonVal === '±') {
       display.value = display.value.startsWith('-')
         ? display.value.slice(1)

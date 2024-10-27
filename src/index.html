@@ -1,73 +1,73 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<!-- FONT AWESOME -->
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-			integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-			crossorigin="anonymous"
-			referrerpolicy="no-referrer"
-		/>
-		<!-- CSS FILE -->
-		<link rel="stylesheet" href="./index.css" />
-		<!-- JS FILE -->
-		<script src="./index.js" type="module" defer></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CSS FILE -->
+    <link rel="stylesheet" href="./index.css" />
+    <!-- JS FILE -->
+    <script src="./index.js" type="module" defer></script>
 
-		<title>Simple Calculator</title>
-	</head>
-	<body>
-		<main>
-			<header class="calc__header">
-				<h1 class="calc__header-title">Simple Calculator</h1>
-				<button class="calc__header-btn"></button>
-			</header>
+    <title>Simple Calculator</title>
+  </head>
+  <body>
+    <main>
+      <header class="calc__header">
+        <h1 class="calc__header-title">Simple Calculator</h1>
+        <button class="calc__header-btn"></button>
+      </header>
 
-			<section class="calc__container">
-				<div class="calc__wrapper">
-					<header class="calc__window">
-						<div class="calc__window-cycles">
-							<div class="circle red"></div>
-							<div class="circle yellow"></div>
-							<div class="circle green"></div>
-						</div>
-						<input
-							value="0"
-							type="text"
-							class="calc__window-input"
-							aria-label="Calculator display"
-						/>
-					</header>
+      <section class="calc__container">
+        <div class="calc__wrapper">
+          <header class="calc__window">
+            <div class="calc__window-cycles">
+              <div class="circle red"></div>
+              <div class="circle yellow"></div>
+              <div class="circle green"></div>
+            </div>
+            <input
+              value="0"
+              type="text"
+              class="calc__window-input"
+              aria-label="Calculator display"
+            />
+          </header>
 
-					<article class="calc__characters">
-						<button class="calc__operator calc__top-symbol">AC</button>
-						<button class="calc__operator calc__top-symbol">±</button>
-						<button class="calc__operator calc__top-symbol">%</button>
-						<button class="calc__operator calc__symbol">÷</button>
+          <article class="calc__characters">
+            <button class="calc__operator calc__top-symbol">AC</button>
+            <button class="calc__operator calc__top-symbol">±</button>
+            <button class="calc__operator calc__top-symbol">%</button>
+            <button class="calc__operator calc__symbol">÷</button>
 
-						<button class="calc__operator">7</button>
-						<button class="calc__operator">8</button>
-						<button class="calc__operator">9</button>
-						<button class="calc__operator calc__symbol">×</button>
+            <button class="calc__operator">7</button>
+            <button class="calc__operator">8</button>
+            <button class="calc__operator">9</button>
+            <button class="calc__operator calc__symbol">×</button>
 
-						<button class="calc__operator">4</button>
-						<button class="calc__operator">5</button>
-						<button class="calc__operator">6</button>
-						<button class="calc__operator calc__symbol">-</button>
+            <button class="calc__operator">4</button>
+            <button class="calc__operator">5</button>
+            <button class="calc__operator">6</button>
+            <button class="calc__operator calc__symbol">-</button>
 
-						<button class="calc__operator">1</button>
-						<button class="calc__operator">2</button>
-						<button class="calc__operator">3</button>
-						<button class="calc__operator calc__symbol">+</button>
+            <button class="calc__operator">1</button>
+            <button class="calc__operator">2</button>
+            <button class="calc__operator">3</button>
+            <button class="calc__operator calc__symbol">+</button>
 
-						<button class="calc__operator">0</button>
-						<button class="calc__operator">,</button>
-						<button class="calc__operator calc__symbol">=</button>
-					</article>
-				</div>
-			</section>
-		</main>
-	</body>
+            <button class="calc__operator">0</button>
+            <button class="calc__operator">,</button>
+            <button class="calc__operator calc__symbol">=</button>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
