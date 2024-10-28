@@ -24,4 +24,8 @@ module.exports = {
       },
     ],
   },
+  devServer: {
+    static: './dist',
+    open: true,
+  },
 };
